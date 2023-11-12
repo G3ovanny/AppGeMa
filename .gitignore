@@ -1,0 +1,76 @@
+node_modules/
+
+# Archivos y directorios generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Archivos de configuración
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de migraciones de Django
+*.db
+*.sqlite3
+*.log
+
+# Archivos de configuración local
+local_settings.py
+
+# Archivos de configuración del sistema
+*.swp
+
+# Archivos de registro
+logs/
+
+# Archivos de medios
+media/
+
+# Archivos estáticos
+static/
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+
+# Carpeta de compilación
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas de archivos temporales
+.temp/
+.tmp/
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.bak.*
+*.backup.*
+*~
+
+# Carpeta de pruebas
+test_reports/
+
+# Carpeta de resultados de cobertura
+.coverage
+
+# Carpeta de archivos compilados
+*.pyc
+*.pyo
+
+# Carpeta de archivos de caché
+__pycache__/
+
+# Archivos de configuración específicos del usuario
+*.iml
+*.log
+*.swp
+*.DS_Store
