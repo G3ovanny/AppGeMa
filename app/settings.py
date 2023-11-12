@@ -13,7 +13,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-hq9irr)#ri!9c5gr*du86$sv997&roe)lbdd+9^cdv4n&=0a^a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
 
 ALLOWED_HOSTS = ["*"]
 
@@ -110,7 +111,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 # # Vite App Dir: point it to the folder your vite app is in.
-VITE_APP_DIR = BASE_DIR / "cliente/src"
+VITE_APP_DIR = BASE_DIR / "app/cliente/src"
 
 # # Static files (CSS, JavaScript, Images)
 # # https://docs.djangoproject.com/en/3.1/howto/static-files/
